@@ -16,15 +16,24 @@ router.post('/', (req: Request, res: Response) => {
     };
 
     PythonShell.run('runModel.py', options, (err: any, results: any) => {
-        if (err) 
-          throw err;
-        // Results is an array consisting of messages collected during execution
-        console.log(results[0]);
+        if (err){
+            res.status(500);
+            return res.send("Internal server error");
+        }
+        
+        if(results[0]==="0"){
+            return res.send("Abusive Comment");
+        }
+        
         res.status(200);
-        res.send(results[0]);
+        if(results[0]==="1"){
+            return res.send("Hatefull Comment");
+        }
+
+        if(results[0]==="2"){
+            return res.send("Normal Comment");
+        }
     });
-    
-    
 });
 
 export default router;
