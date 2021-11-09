@@ -27,7 +27,7 @@ router.post('/', (req: Request, res: Response) => {
         
         res.status(200);
         if(results[0]==="1"){
-            return res.send("Hatefull Comment");
+            return res.send("Hateful Comment");
         }
 
         if(results[0]==="2"){
