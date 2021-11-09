@@ -47,4 +47,4 @@ inp = cleanInput(inp)
 data = vectorizer.transform(inp)
 
 pred = loadedModel.predict(data)
-print(pred)
+print(pred[0])
