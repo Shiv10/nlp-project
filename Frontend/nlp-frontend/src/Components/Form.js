@@ -5,6 +5,7 @@ function Form() {
     const [resp, setResp] = useState("");
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setResp("");
         const d = {
             text: textRef.current.value
         }
@@ -15,7 +16,7 @@ function Form() {
         }; 
         let res = await fetch('http://localhost:3001/predict', requestOptions);
         res = await res.text();
-        setResp(res);
+        setResp(res);        
     }
     return (
         <div>
