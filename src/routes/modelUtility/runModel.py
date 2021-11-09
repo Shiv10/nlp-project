@@ -6,10 +6,10 @@ from nltk.tokenize import word_tokenize
 from nltk.stem.porter import PorterStemmer
 import pandas as pd
 import re
-from sklearn import *
+import sys
 
 vectorizer = TfidfVectorizer()
-df = pd.read_csv('cleaned_data.csv')
+df = pd.read_csv('./cleaned_data.csv')
 vector = vectorizer.fit_transform(df['clean_tweet'].values.astype('U'))
 
 
@@ -42,9 +42,10 @@ def cleanInput(text):
     text = [text]
     return text
 
-inp = input()
+inp = ' '.join(sys.argv[1:])
 inp = cleanInput(inp)
 data = vectorizer.transform(inp)
 
 pred = loadedModel.predict(data)
 print(pred[0])
+sys.stdout.flush()
