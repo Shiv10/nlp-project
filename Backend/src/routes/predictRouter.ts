@@ -27,20 +27,19 @@ router.post("/", (req: Request, res: Response) => {
 		}
 		res.status(200);
 		stdout = stdout.trim()
-		console.log(stdout);
-		// if (results[0] === "0") {
-		// 	return res.send("Abusive Comment");
-		// }
-		// if (results[0] === "1") {
-		// 	return res.send("Hateful Comment");
-		// }
 
-		// if (results[0] === "2") {
-		// 	return res.send("Normal Comment");
-		// }
-		// if (results[0] === "3") {
-		// 	return res.send("Spam Comment");
-		// }
+		if (stdout === "0") {
+			return res.send("Abusive Comment");
+		}
+		if (stdout === "1") {
+			return res.send("Hateful Comment");
+		}
+		if (stdout === "2") {
+			return res.send("Normal Comment");
+		}
+		if (stdout === "3") {
+			return res.send("Spam Comment");
+		}
 	});
 
 	// PythonShell.run("runModel.py", options, (err: any, results: any) => {
