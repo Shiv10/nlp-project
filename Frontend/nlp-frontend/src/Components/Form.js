@@ -16,7 +16,7 @@ function Form() {
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify(d),
 		};
-		let res = await fetch("http://localhost:3001/predict", requestOptions);
+		let res = await fetch("http://206.189.136.167:3001/predict", requestOptions);
 		res = await res.text();
 		setResp(res);
 		setDisabled(false);

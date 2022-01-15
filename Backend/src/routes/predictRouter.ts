@@ -26,6 +26,7 @@ router.post("/", (req: Request, res: Response) => {
 			return res.send("Internal server error");;
 		}
 		res.status(200);
+		stdout = stdout.trim()
 		console.log(stdout);
 		// if (results[0] === "0") {
 		// 	return res.send("Abusive Comment");
