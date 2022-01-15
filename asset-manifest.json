@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/serenity/static/css/main.42dada6a.chunk.css",
+    "main.js": "/serenity/static/js/main.6282e08e.chunk.js",
+    "main.js.map": "/serenity/static/js/main.6282e08e.chunk.js.map",
+    "runtime-main.js": "/serenity/static/js/runtime-main.667c1d81.js",
+    "runtime-main.js.map": "/serenity/static/js/runtime-main.667c1d81.js.map",
+    "static/js/2.84e41151.chunk.js": "/serenity/static/js/2.84e41151.chunk.js",
+    "static/js/2.84e41151.chunk.js.map": "/serenity/static/js/2.84e41151.chunk.js.map",
+    "static/js/3.725767b5.chunk.js": "/serenity/static/js/3.725767b5.chunk.js",
+    "static/js/3.725767b5.chunk.js.map": "/serenity/static/js/3.725767b5.chunk.js.map",
+    "index.html": "/serenity/index.html",
+    "static/css/main.42dada6a.chunk.css.map": "/serenity/static/css/main.42dada6a.chunk.css.map",
+    "static/js/2.84e41151.chunk.js.LICENSE.txt": "/serenity/static/js/2.84e41151.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/serenity/static/media/second_bg.3920aee6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.667c1d81.js",
+    "static/js/2.84e41151.chunk.js",
+    "static/css/main.42dada6a.chunk.css",
+    "static/js/main.6282e08e.chunk.js"
+  ]
+}
