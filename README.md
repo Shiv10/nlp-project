@@ -67,7 +67,7 @@ cd ./Nlp-project/Backend
 ```sh
 npm i
 ```
-4. Create .env file and add data from the sample env
+4. Create .env file and add data from the sample env (not needed if zip archive is provided)
 ```sh
 touch .env && nano .env
 ```
