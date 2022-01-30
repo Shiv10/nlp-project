@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/serenity/static/css/main.42dada6a.chunk.css",
-    "main.js": "/serenity/static/js/main.6282e08e.chunk.js",
-    "main.js.map": "/serenity/static/js/main.6282e08e.chunk.js.map",
+    "main.js": "/serenity/static/js/main.e357a234.chunk.js",
+    "main.js.map": "/serenity/static/js/main.e357a234.chunk.js.map",
     "runtime-main.js": "/serenity/static/js/runtime-main.667c1d81.js",
     "runtime-main.js.map": "/serenity/static/js/runtime-main.667c1d81.js.map",
     "static/js/2.84e41151.chunk.js": "/serenity/static/js/2.84e41151.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.667c1d81.js",
     "static/js/2.84e41151.chunk.js",
     "static/css/main.42dada6a.chunk.css",
-    "static/js/main.6282e08e.chunk.js"
+    "static/js/main.e357a234.chunk.js"
   ]
 }
