@@ -1,9 +1,9 @@
 <p align="center">
 
-  <h3 align="center">Racial Microaggression Detection</h3>
+  <a href="https://myserenity.live" target="_blank"><h3 align="center">SerenityJS</h3></a>
 
   <p align="center">
-    Natural Language Processing Project
+    Racial Micro-aggression detection
     <br />
   </p>
 </p>
@@ -51,17 +51,17 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 * node js
-
+<br/><br/><br/><br/><br/><br/><br/><br/>
 
 ### Installation and Setup
  
 1. Clone the repo
 ```sh
-git clone https://github.com/Shiv10/Nlp-project
+git clone https://github.com/Shiv10/serenity.git
 ```
 2. Change directory to Appointy-instagram-clone
 ```sh
-cd ./Nlp-project/Backend
+cd ./serenity/Backend
 ```
 3. Install the node modules 
 ```sh
@@ -75,11 +75,15 @@ touch .env && nano .env
 ```sh
 npm run dev
 ```
-6. Change directory to frontend
+6. Clone the repo
 ```sh
- cd ../Frontend/nlp-frontend
+ git clone https://github.com/shaarangg/serenityjsFrontend.git
 ```
-7. Start the frontend server
+8. Change directory
+```sh
+ cd ./serenityFrontend
+```
+8. Start the frontend server
 ```sh
  npm run start
 ```
@@ -87,21 +91,21 @@ npm run dev
 ## Usage
 
 1. Open the frontend in the broswer and you will be greeted with a screen as below.
-![s1](https://user-images.githubusercontent.com/17690376/144501286-5f11ca3f-9777-44b5-bc51-b6aa6138c4ac.png)
+![s1](https://user-images.githubusercontent.com/62327490/151834364-9e793b29-b921-4371-988f-3fbe893f6cad.png)
 <br/>
 
 2. Write your text in the given text area and press the submit button to get according response.
-![s2](https://user-images.githubusercontent.com/17690376/144501743-d3d7103b-053f-4646-bf8e-854fcd31e635.png)
+![s2](https://user-images.githubusercontent.com/17690376/151835324-27342665-b768-46bc-90e7-da8d63909eb6.png)
 
 <br/>
 
-![s3](https://user-images.githubusercontent.com/17690376/144501914-990e9336-d896-460b-9db4-b587474db8e8.png)
+![s3](https://user-images.githubusercontent.com/62327490/151834780-ea6e2e4f-a49c-4028-ad35-dea8094459ce.png)
 
 
 
 ## Roadmap
 
-See the [open issues](https://github.com/Shiv10/nlp-project/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Shiv10/serenity/issues) for a list of proposed features (and known issues).
 
 
 ## Contributing
