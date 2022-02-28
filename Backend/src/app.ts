@@ -9,11 +9,6 @@ import contactRouter from './routes/contactUs';
 
 const app: express.Application = express();
 const PORT = process.env.PORT;
-const corsOptions = {
-	origin: 'https://myserenity.live',
-	methods: ['GET', 'POST'],
-	allowedHeaders: ['Content-Type']
-}
 
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
