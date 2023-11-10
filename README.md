@@ -1,9 +1,11 @@
 <p align="center">
 
-  <a href="https://myserenity.live" target="_blank"><h3 align="center">SerenityJS</h3></a>
+  <h3 align="center">SerenityJS</h3>
 
   <p align="center">
     Racial Micro-aggression detection
+    <br/>
+    <a href="https://github.com/shaarangg/serenityjsFrontend">Link to frontend</a>
     <br />
   </p>
 </p>
@@ -51,7 +53,7 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 * node js
-<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/>
 
 ### Installation and Setup
  
